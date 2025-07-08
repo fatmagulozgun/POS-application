@@ -1,6 +1,6 @@
 import { Button } from 'antd'
 import React from 'react'
-import { ClearOutlined } from "@ant-design/icons"
+import { ClearOutlined, MinusCircleOutlined, PlusCircleOutlined } from "@ant-design/icons"
 
 const CartTotals = () => {
     return (
@@ -9,11 +9,105 @@ const CartTotals = () => {
                 Sepetteki Ürünler
             </h2>
 
-            <div className="cart-items">
-                <div className="cart-item">
-                    Cart item
-                </div>
-            </div>
+            <ul className="cart-items px-2 flex flex-col gap-y-3 py-2 overflow-y-auto ">
+                <li className="cart-item flex justify-between">
+                    <div className='flex items-center'>
+                        <img src="https://www.doktorsaliheken.com/2021/03/elma.jpg" alt="" className='w-16 h-16 object-cover' />
+                        <div className='flex flex-col ml-2'>
+                            <b>Elma</b>
+                            <span>12t x2</span>
+                        </div>
+                    </div>
+
+                    <div className='flex items-center gap-x-1'>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
+                        <span className=''>1</span>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
+                    </div>
+                </li>
+
+                <li className="cart-item flex justify-between ">
+                    <div className='flex items-center'>
+                        <img src="https://www.doktorsaliheken.com/2021/03/elma.jpg" alt="" className='w-16 h-16 object-cover' />
+                        <div className='flex flex-col ml-2'>
+                            <b>Elma</b>
+                            <span>12t x2</span>
+                        </div>
+                    </div>
+
+                    <div className='flex items-center gap-x-1'>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
+                        <span className=''>1</span>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
+                    </div>
+                </li>
+
+
+                <li className="cart-item flex justify-between">
+                    <div className='flex items-center'>
+                        <img src="https://www.doktorsaliheken.com/2021/03/elma.jpg" alt="" className='w-16 h-16 object-cover' />
+                        <div className='flex flex-col ml-2'>
+                            <b>Elma</b>
+                            <span>12t x2</span>
+                        </div>
+                    </div>
+
+                    <div className='flex items-center gap-x-1'>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
+                        <span className=''>1</span>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
+                    </div>
+                </li>
+
+                <li className="cart-item flex justify-between">
+                    <div className='flex items-center'>
+                        <img src="https://www.doktorsaliheken.com/2021/03/elma.jpg" alt="" className='w-16 h-16 object-cover' />
+                        <div className='flex flex-col ml-2'>
+                            <b>Elma</b>
+                            <span>12t x2</span>
+                        </div>
+                    </div>
+
+                    <div className='flex items-center gap-x-1'>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
+                        <span className=''>1</span>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
+                    </div>
+                </li>
+
+                <li className="cart-item flex justify-between">
+                    <div className='flex items-center'>
+                        <img src="https://www.doktorsaliheken.com/2021/03/elma.jpg" alt="" className='w-16 h-16 object-cover' />
+                        <div className='flex flex-col ml-2'>
+                            <b>Elma</b>
+                            <span>12t x2</span>
+                        </div>
+                    </div>
+
+                    <div className='flex items-center gap-x-1'>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
+                        <span className=''>1</span>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
+                    </div>
+                </li>
+
+                <li className="cart-item flex justify-between">
+                    <div className='flex items-center'>
+                        <img src="https://www.doktorsaliheken.com/2021/03/elma.jpg" alt="" className='w-16 h-16 object-cover' />
+                        <div className='flex flex-col ml-2'>
+                            <b>Elma</b>
+                            <span>12t x2</span>
+                        </div>
+                    </div>
+
+                    <div className='flex items-center gap-x-1'>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
+                        <span className=''>1</span>
+                        <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
+                    </div>
+                </li>
+
+            </ul>
 
             <div className="cart-totals mt-auto">
                 <div className='border-t border-b'></div>
