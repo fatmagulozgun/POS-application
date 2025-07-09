@@ -21,7 +21,7 @@ const CartTotals = () => {
 
                     <div className='flex items-center gap-x-1'>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
-                        <span className=''>1</span>
+                        <span className='font-bold'>1</span>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
                     </div>
                 </li>
@@ -37,7 +37,7 @@ const CartTotals = () => {
 
                     <div className='flex items-center gap-x-1'>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
-                        <span className=''>1</span>
+                        <span className='font-bold'>1</span>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
                     </div>
                 </li>
@@ -54,7 +54,7 @@ const CartTotals = () => {
 
                     <div className='flex items-center gap-x-1'>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
-                        <span className=''>1</span>
+                        <span className='font-bold'>1</span>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
                     </div>
                 </li>
@@ -70,7 +70,7 @@ const CartTotals = () => {
 
                     <div className='flex items-center gap-x-1'>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
-                        <span className=''>1</span>
+                        <span className='font-bold'>1</span>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
                     </div>
                 </li>
@@ -86,7 +86,7 @@ const CartTotals = () => {
 
                     <div className='flex items-center gap-x-1'>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
-                        <span className=''>1</span>
+                        <span className='font-bold'>1</span>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
                     </div>
                 </li>
@@ -102,7 +102,7 @@ const CartTotals = () => {
 
                     <div className='flex items-center gap-x-1'>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<PlusCircleOutlined />} type='primary' size='small' />
-                        <span className=''>1</span>
+                        <span className='font-bold'>1</span>
                         <Button className='w-full  flex items-center justify-center !rounded-full' icon={<MinusCircleOutlined />} type='primary' size='small' />
                     </div>
                 </li>
@@ -128,7 +128,6 @@ const CartTotals = () => {
                 <b className='text-xl text-green-500'>Genel Toplam</b>
                 <span className='text-xl'>99tl</span>
             </div>
-
 
 
             <div className='py-4 px-2'>
